@@ -109,6 +109,11 @@ namespace Articulate.Models
                 
             }
         }
+
+        public string ExternalUrl
+        {
+            get { return this.GetPropertyValue<string>("externalUrl"); }
+        }
     }
 
 }
